@@ -27,6 +27,7 @@ version: "01/03/25"
 
 [4. Motores de 2 tiempos - parte 2](04_mot2t_2.html)
 
+[5. Motores de 4 tiempos - parte 1 (Alternancia 2)](05_mot4t_1.html)
 
 <span hidden>Fin archivo</span>
 

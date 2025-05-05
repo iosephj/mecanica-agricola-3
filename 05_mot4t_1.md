@@ -1,0 +1,141 @@
+---
+title: "5. Motor de cuatro tiempos"
+autor: "José Juarez"
+version: "05/05/25"
+---
+
+<span hidden>Local path of the file: "H:/cfr/mec3/"</span>
+<span hidden>Local path of images: "H:/cfr/mec3/_i/"</span>
+
+
+<br><br>
+
+
+## Introducción al motor de 4 tiempos
+
+<span hidden>Image</span>
+   <center>![](https://www.actualidadmotor.com/wp-content/uploads/2019/06/cuatro-tiempos-830x460.png){width=500px}</center>
+   <center><span class="grey3 size80">Fuente: https://www.actualidadmotor.com. Motor de 4 tiempos.</span></center>
+
+Un motor de 4 tiempos es un motor de combustión interna muy usado actualmente. Puede funcionar con nafta o gasoil. Los motores a nafta funcionan, en general, siguiendo el ciclo Otto, caracterizado por el encendido mediante bujía. Los motores a gasoil (diésel) funcionan siguiendo el ciclo Diesel, donde el encendido se produce por la alta compresión del aire. Son los motores de los autos, camiones, motos, etc. En el ámbito agropecuario está en tractores, motobombas, generadores, etc.
+
+El ciclo completo de este motor consta de 4 momentos que se corresponden con un movimiento hacia arriba o hacia abajo del pistón:
+
+- **Admisión**: Entrada de mezcla aire-combustible (movimiento hacia abajo). 
+
+- **Compresión**: El pistón comprime la mezcla (movimiento hacia arriba).
+
+- **Explosión** (o expansión): Se enciende la mezcla, genera energía (movimiento hacia abajo).
+
+- **Escape**: Salida de gases quemados (movimiento hacia arriba).
+
+
+<br><br>
+
+
+## Actividad 1
+
+Busca un video explicativo breve de 4 minutos aproximadamente que tu entiendas. A partir de tu video intenta completar el siguiente texto poniendo una sola palabra en cada linea:
+
+> Un motor de ____ tiempos realiza cuatro carreras del pistón para completar un ciclo: admisión, ____, explosión y ____. Cada carrera sube o baja el pistón dentro del cilindro. En cambio, un motor de ____ tiempos hace todo el ciclo en solo dos carreras, por lo que es más rápido pero suele desgastarse más y ____ más combustible. Los motores de 4T son más eficientes y duraderos.
+
+<div hidden class="blue2">
+**Solución:** Un motor de **__4__** tiempos realiza cuatro carreras del pistón para completar un ciclo: admisión, **__compresión__**, explosión y **__escape__**. Cada carrera sube o baja el pistón dentro del cilindro. En cambio, un motor de **__2__** tiempos hace todo el ciclo en solo dos carreras, por lo que es más rápido pero suele desgastarse más y **__consumir__** más combustible. Los motores de 4T son más eficientes y duraderos.
+</div>
+
+
+<br><br>
+
+
+## Partes principales del motor
+
+En este caso se muestran las partes de un motor de nafta (encendido mediante bujía):
+
+<span hidden>Image</span>
+   <center>![](https://i.pinimg.com/736x/1e/86/0c/1e860c06295f44ae1664699a40b996b5.jpg){width=500px}</center>
+   <center><span class="grey3 size80">Fuente: i.pinimg.com. Partes de un motor naftero</span></center>
+
+
+<br><br>
+
+
+## Actividad 2
+
+Observa bien la imagen del punto anterior e intenta dibujarla, aunque no sea tan perfecta. Agrega flechas que unan los siguientes nombres con las partes correspondientes de tu dibujo: cilindro, pistón, biela, cigüeñal, válvula de admisión, válvula de escape, árbol de levas, bujía y cárter.
+
+
+<br><br>
+
+## Actividad 3
+
+Investiga y completa el siguiente cuadro comparativo entre los motores de 4T y 2T. Poner algo donde está cada línea "___". En cada una puede haber una palabra o varias formando una frase según el caso.
+
+
+| **Aspecto**                | **Motor 4 tiempos (4T)**                    | **Motor 2 tiempos (2T)**                   |
+| -------------------------- | ------------------------------------------- | ------------------------------------------ |
+| **Número de carreras**     | 4                                           | ___                                        |
+| **Ciclo completo**         | En ___ vueltas del cigüeñal                 | En ____ vuelta del cigüeñal                |
+| **Lubricación**            | Por aceite en el ____                       | Por aceite mezclado con el ____            |
+| **Consumo de combustible** | ___                                         | ___                                        |
+| **Durabilidad**            | ___                                         | ___                                        |
+| **Potencia por peso**      | ___                                         | ___                                        |
+| **Uso común**              | Tractores, generadores, autos               | Motosierra, motoguadañas, motos pequeñas   |
+| **Mantenimiento**          | Menos frecuente, pero más complejo          | Más frecuente, pero más simple             |
+
+
+
+<div hidden class="blue2">
+**Solución**
+
+| **Aspecto**                | **Motor 4 tiempos (4T)**                    | **Motor 2 tiempos (2T)**                   |
+| -------------------------- | ------------------------------------------- | ------------------------------------------ |
+| **Número de carreras**     | 4                                           | **__2__**                                  |
+| **Ciclo completo**         | En **__dos__** vueltas del cigüeñal         | En **__una__** vuelta del cigüeñal         |
+| **Lubricación**            | Por aceite en el **__cárter__**             | Por aceite mezclado con el **__combustible__** |
+| **Consumo de combustible** | **__Menor__**                               | **__Mayor__**                              |
+| **Durabilidad**            | **__Mayor, menos desgaste__**               | **__Menor, más desgaste__**                |
+| **Potencia por peso**      | **__Menor__**                               | **__Mayor__**                              |
+| **Uso común**              | Tractores, generadores, autos               | Motosierra, motoguadañas, motos pequeñas   |
+| **Mantenimiento**          | Menos frecuente, pero más complejo          | Más frecuente, pero más simple             |
+
+</div>
+
+
+<br><br>
+
+
+## Actividad 4
+
+Recuerda que los motores de 4T pueden encenderse por bujia (y nafta) por sin bujía solo por la compresión (son los diesel y usan gasoil). En esta actividad nos vamos a concentrar en los de encendido por bujía (nafta) que normalmente siguen un ciclo llamado "Otto".
+
+Abre  este [link](https://www.liveworksheets.com/w/es/motores-de-combustion/1498413) y trata de completar la actividad interactiva que aparece arrastrando los recuadros o escribiendo lo que corresponda. Al final cuando la hayas completado aprieta el botón **"Finish"** para que la página corrija tu trabajo y aprendas de tus errores. No hace falta escribir nada de esto en la carpeta.
+
+
+<!-- HTML style definitions -->
+<style>
+/* Colors */
+.grey1 {color: #b3b3b3;} /* my light-grey */
+.grey2 {color: #999999;} /* my middle-grey */
+.grey3 {color: #808080;} /* my dark-grey */
+.blue1 {color: #6495ed;} /* nvim blue */
+.blue2 {color: #276cdf;} /* Andrew Ng Blue */
+.sky1 {color: #7dbed8;} /* nvim sky */
+.sky2 {color: #27a2db;}   /* my sky */
+.green {color: #81b524;} /* my green */
+.red1 {color: #ec5469;} /* my coral-red */
+.red2 {color: #f44336;} /* my red */
+.rose {color: #ec9998:} /* nvim rose */
+.gold {color: #df9d43;} /* Andrew Ng gold */
+.orange1 {color: #fda556;} /* nvim orange */
+.orange2 {color: #ff9505;} /*Andrew Ng orange */
+.purple1 {color: #ff40ff;} /* Andrew Ng purple */
+.purple2 {color: #d164d7;} /* Andrew Ng purple */
+/* Font Size */
+.size90 {font-size: 0.9em;}
+.size85 {font-size: 0.85em;}
+.size80 {font-size: 0.8em;}
+.size70 {font-size: 0.7em;}
+/* Document General Font Size */
+body {font-size: 1.3em;}
+</style>
+<!-- Use <span> inline and <div> with several lines --->
