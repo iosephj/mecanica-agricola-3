@@ -19,15 +19,18 @@ version: "01/03/25"
 
 ## Guías de aprendizaje
 
-[1. Tipos de motores](01_motores.html)
+- [1. Tipos de motores](01_motores.html)
 
-[2. Magnitudes y unidades usadasen mecánica](02_magnitudes_unidades.html)
+- [2. Magnitudes y unidades usadasen mecánica](02_magnitudes_unidades.html)
 
-[3. Motores de 2 tiempos -parte 1 (Alternancia 1)](03_mot2t_unidades_1.html)
+- [3. Motores de 2 tiempos -parte 1 (Alternancia 1)](03_mot2t_unidades_1.html)
 
-[4. Motores de 2 tiempos - parte 2](04_mot2t_2.html)
+- [4. Motores de 2 tiempos - parte 2](04_mot2t_2.html)
 
-[5. Motores de 4 tiempos - parte 1 (Alternancia 2)](05_mot4t_1.html)
+- [5. Motores de 4 tiempos - parte 1 (Alternancia 2)](05_mot4t_1.html)
+
+- [6. Motores de 4 tiempos -parte 2 (Alternancia 3)](06_motor4t_2.html)
+
 
 <span hidden>Fin archivo</span>
 
