@@ -32,9 +32,17 @@ version: "01/03/25"
 - [6. Motores de 4 tiempos -parte 2 (Alternancia 3)](06_motor4t_2.html)
 
 
+- [7. Motores de 4 tiempos -parte 3](07_motor4t_3.html)
+
+
 <span hidden>Fin archivo</span>
 
-</div>
+<br>
+
+---
+
+**Verifica** tu progreso [aquí](https://iosephj.pythonanywhere.com/notas/cfr_mec3_25) poniendo como clave `progreso2025` y luego tu número de lista.
+
 <!-- HTML style definitions -->
 <style>
 /* Colors */
