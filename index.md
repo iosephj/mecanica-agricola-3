@@ -29,10 +29,9 @@ version: "01/03/25"
 
 - [5. Motores de 4 tiempos - parte 1 (Alternancia 2)](05_mot4t_1.html)
 
-- [6. Motores de 4 tiempos -parte 2 (Alternancia 3)](06_motor4t_2.html)
+- [6. Motores de 4 tiempos - parte 2 (Alternancia 3)](06_motor4t_2.html)
 
-
-- [7. Motores de 4 tiempos -parte 3](07_motor4t_3.html)
+- [7. Motores de 4 tiempos - parte 3](07_mot4t_3.html)
 
 
 <span hidden>Fin archivo</span>
