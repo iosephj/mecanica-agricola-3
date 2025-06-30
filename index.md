@@ -33,6 +33,8 @@ version: "01/03/25"
 
 - [7. Motores de 4 tiempos - parte 3](07_mot4t_3.html)
 
+- [8. Mantenimiento de un motor 4T - parte 1 (Alternacia 4)](08_mantenimiento_motor_4t.html)
+
 
 <span hidden>Fin archivo</span>
 
