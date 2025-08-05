@@ -46,6 +46,8 @@ version: "01/03/25"
 
 - [8. Mantenimiento de un motor 4T - parte 1 (Alternacia 4)](08_mantenimiento_motor_4t.html)
 
+- [9. Transmisión de potencia (Alternancia 5)](09_transmision.html)
+
 
 <span hidden>Fin archivo</span>
 
