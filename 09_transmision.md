@@ -138,7 +138,9 @@ $n2 = \frac{2400}{4} = 600 \text{ rpm}$
 Entonces, a la salida de la caja, el eje gira a 600 RPM, pero con mucho más torque, ideal para **trabajar con carga o en el campo**.
 </div>
 
+
 <br><br>
+
 
 ## Actividad 4
 
@@ -157,6 +159,53 @@ Puede servirte este [video](https://www.youtube.com/watch?v=QpF2JPwRkI8) u otro 
 </div>
 
 * **3)** Contesta brevemente esta pregunta: ¿Por qué no se conecta el motor directamente a las ruedas?
+
+
+<br><br>
+
+
+**(En el aula)**
+
+## Actividad 5
+
+Suponga que en un tractor:
+
+* El motor gira a 3500 RPM.
+* La caja reduce con una relación de 1:3 en primera. 
+
+¿A que velocidad en rpm gira la rueda?
+
+
+<br><br>
+
+
+## Actividad 6
+
+Busque información y trate de dibujar esquemáticamente un diferencial. Escriba en pocos renglones para que sirve.
+
+
+<br><br>
+
+
+<div class="grey3 size70">
+
+---
+
+**Algunas soluciones para autocorregirte**
+
+### Actividad 2
+
+$\text{Relación de Transmisión (i)} = \frac{\text{n1}}{\text{n2}} = \frac{2400 rpm}{600rpm}$ = **4**
+
+### Actividad 3
+
+Como $\text{Relación de Transmisión (i)} = \frac{\text{n1}}{\text{n2}}$
+
+Queda: $4 = \frac{2400rpm}{n2}$
+
+Despejando x queda: $n2 = \frac{2400rpm}{4}$ **=600 rpm**
+
+Entonces, a la salida de la caja, el eje gira a 600 RPM, pero con mucho más torque, ideal para **trabajar con carga o en el campo**.
 
 
 <!-- HTML style definitions -->
