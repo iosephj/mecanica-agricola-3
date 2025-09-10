@@ -48,6 +48,8 @@ version: "01/03/25"
 
 - [9. Transmisión de potencia (Alternancia 5)](09_transmision.html)
 
+- [10. El tractor agrícola (Alternancia 6)](10_tractor_1.html)
+
 
 <span hidden>Fin archivo</span>
 
