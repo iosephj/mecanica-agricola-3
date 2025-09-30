@@ -48,7 +48,14 @@ version: "01/03/25"
 
 - [9. Transmisión de potencia (Alternancia 5)](09_transmision.html)
 
-- [10. El tractor agrícola (Alternancia 6)](10_tractor_1.html)
+- [10. El tractor agrícola - Tipos (Alternancia 6)](10_tractor_1.html)
+
+- [11. El tractor agrícola - Lubricación](11_tractor_2.html)
+
+## Trabajos prácticos
+
+- [TP1. Reconocimiento de componentes en motores](tp1.html)
+
 
 
 <span hidden>Fin archivo</span>
