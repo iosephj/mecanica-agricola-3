@@ -18,9 +18,13 @@ version: "01/03/25"
 
 **Criterios de aprobación**
 
-- **Bimestre 1:** Tener **A** en Guía 3 (Alt. 1) y Prueba 1
-- **Bimestre 2:** Tener **A** en Guía 5 (Alt. 2), Guía 6 (Alt. 3) y Prueba 2.
 - **Cuatrimestre 1:** Tener **A** en Bimestre 1 y 2
+   + **Bimestre 1:** Tener **A** en Guía 3 (Alt. 1) y Prueba 1
+   + **Bimestre 2:** Tener **A** en Guía 5 (Alt. 2), Guía 6 (Alt. 3) y Prueba 2.
+
+- **Cuatrimestre 2:** Tener **A** en Bimestre 3 y 4
+   + **Bimestre 3:** Tener **A** en Guía 9 (Alt. 5) y Guía 10 (Alt 6)
+
 
 </div>
 
