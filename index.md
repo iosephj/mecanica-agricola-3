@@ -56,6 +56,9 @@ version: "01/03/25"
 
 - [11. El tractor agrícola - Lubricación](11_tractor_2.html)
 
+- [12. Implementos de acople de un tractor](12_tractor_implementos.html)
+ 
+
 ## Trabajos prácticos
 
 - [TP1. Reconocimiento de componentes en motores](tp1.html)
