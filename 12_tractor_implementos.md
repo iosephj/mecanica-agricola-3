@@ -61,20 +61,22 @@ Describir brevemente cada uno de estos tipos de implementos: a) arado, b) rastra
 (En clase vamos a continuar viendo otros implementos)
 
 
-<div hidden>
+<br><br>
 
 
-## Actividad 1: Sembradora directa
+## Actividad 3
 
-Las sembradoras directas son máquinas muy usadas actualmente, vamos a verlas con más detalle. Responder lo siguiente:
+(Hay que explicar oralmente esta actividad)
 
-**a)** Explicar brevemente los tipos de sembradoras
+Hay otros implementos que se pueden montar en un tractor, como las sembradoras, las fertilizadoras, las fumigadoras, etc. Las sembradoras pueden ser para siembra convencional o directa.
 
-**b)** Hacer un dibujo esquemático de una sembradora directa, sobre todo el detalle de los discos, ruedas, etc.
+**a)** Describir brevemente las diferencias entre siembra directa y convencional.
 
-**c)** Buscar información sobre el mantenimiento que lleva una semabradora directa y resumirlo en 5 renglones
+**b)** Dibujar esquemáticamente un tren de siembra convencional nombrando y explicando sus partes. Se trata de un tren de siembra que no trabaja a voleo sino que coloca las semillas en un surco. Puedes ver los primeros 8 minutos de este [video](https://www.youtube.com/watch?v=vuZoD1V-3G4) como fuente de información.
 
-</div>
+
+**c)** Idem b) pero para siembra directa. Puedes ver el mismo video como fuente de información.
+
 
 
 
