@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Motor de dos tiempos (parte 1)</title>
+  <style>
+
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+</style>
+  <style type="text/css">@font-face {font-family: octicons-link;src: url(data:font/woff;charset=utf-8;base64,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) format('woff');}body {-webkit-text-size-adjust: 100%;text-size-adjust: 100%;color: #333;font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";font-size: 16px;line-height: 1.6;word-wrap: break-word;}a {background-color: transparent;}a:active,a:hover {outline: 0;}strong {font-weight: bold;}h1 {font-size: 2em;margin: 0.67em 0;}img {border: 0;}hr {box-sizing: content-box;height: 0;}pre {overflow: auto;}code,kbd,pre {font-family: monospace, monospace;font-size: 1em;}input {color: inherit;font: inherit;margin: 0;}html input[disabled] {cursor: default;}input {line-height: normal;}input[type="checkbox"] {box-sizing: border-box;padding: 0;}table {border-collapse: collapse;border-spacing: 0;}td,th {padding: 0;}* {box-sizing: border-box;}input {font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";}a {color: #4078c0;text-decoration: none;}a:hover,a:active {text-decoration: underline;}hr {height: 0;margin: 15px 0;overflow: hidden;background: transparent;border: 0;border-bottom: 1px solid #ddd;}hr:before {display: table;content: "";}hr:after {display: table;clear: both;content: "";}h1,h2,h3,h4,h5,h6 {margin-top: 15px;margin-bottom: 15px;line-height: 1.1;}h1 {font-size: 30px;}h2 {font-size: 21px;}h3 {font-size: 16px;}h4 {font-size: 14px;}h5 {font-size: 12px;}h6 {font-size: 11px;}blockquote {margin: 0;}ul,ol {padding: 0;margin-top: 0;margin-bottom: 0;}ol ol,ul ol {list-style-type: lower-roman;}ul ul ol,ul ol ol,ol ul ol,ol ol ol {list-style-type: lower-alpha;}dd {margin-left: 0;}code {font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;font-size: 12px;}pre {margin-top: 0;margin-bottom: 0;font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;}.select::-ms-expand {opacity: 0;}.octicon {font: normal normal normal 16px/1 octicons-link;display: inline-block;text-decoration: none;text-rendering: auto;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}.octicon-link:before {content: '\f05c';}.markdown-body:before {display: table;content: "";}.markdown-body:after {display: table;clear: both;content: "";}.markdown-body>*:first-child {margin-top: 0 !important;}.markdown-body>*:last-child {margin-bottom: 0 !important;}a:not([href]) {color: inherit;text-decoration: none;}.anchor {display: inline-block;padding-right: 2px;margin-left: -18px;}.anchor:focus {outline: none;}h1,h2,h3,h4,h5,h6 {margin-top: 1em;margin-bottom: 16px;font-weight: bold;line-height: 1.4;}h1 .octicon-link,h2 .octicon-link,h3 .octicon-link,h4 .octicon-link,h5 .octicon-link,h6 .octicon-link {color: #000;vertical-align: middle;visibility: hidden;}h1:hover .anchor,h2:hover .anchor,h3:hover .anchor,h4:hover .anchor,h5:hover .anchor,h6:hover .anchor {text-decoration: none;}h1:hover .anchor .octicon-link,h2:hover .anchor .octicon-link,h3:hover .anchor .octicon-link,h4:hover .anchor .octicon-link,h5:hover .anchor .octicon-link,h6:hover .anchor .octicon-link {visibility: visible;}h1 {padding-bottom: 0.3em;font-size: 2.25em;line-height: 1.2;border-bottom: 1px solid #eee;}h1 .anchor {line-height: 1;}h2 {padding-bottom: 0.3em;font-size: 1.75em;line-height: 1.225;border-bottom: 1px solid #eee;}h2 .anchor {line-height: 1;}h3 {font-size: 1.5em;line-height: 1.43;}h3 .anchor {line-height: 1.2;}h4 {font-size: 1.25em;}h4 .anchor {line-height: 1.2;}h5 {font-size: 1em;}h5 .anchor {line-height: 1.1;}h6 {font-size: 1em;color: #777;}h6 .anchor {line-height: 1.1;}p,blockquote,ul,ol,dl,table,pre {margin-top: 0;margin-bottom: 16px;}hr {height: 4px;padding: 0;margin: 16px 0;background-color: #e7e7e7;border: 0 none;}ul,ol {padding-left: 2em;}ul ul,ul ol,ol ol,ol ul {margin-top: 0;margin-bottom: 0;}li>p {margin-top: 16px;}dl {padding: 0;}dl dt {padding: 0;margin-top: 16px;font-size: 1em;font-style: italic;font-weight: bold;}dl dd {padding: 0 16px;margin-bottom: 16px;}blockquote {padding: 0 15px;color: #777;border-left: 4px solid #ddd;}blockquote>:first-child {margin-top: 0;}blockquote>:last-child {margin-bottom: 0;}table {display: block;width: 100%;overflow: auto;word-break: normal;word-break: keep-all;}table th {font-weight: bold;}table th,table td {padding: 6px 13px;border: 1px solid #ddd;}table tr {background-color: #fff;border-top: 1px solid #ccc;}table tr:nth-child(2n) {background-color: #f8f8f8;}img {max-width: 100%;box-sizing: content-box;background-color: #fff;}code {padding: 0;padding-top: 0.2em;padding-bottom: 0.2em;margin: 0;font-size: 85%;background-color: rgba(0,0,0,0.04);border-radius: 3px;}code:before,code:after {letter-spacing: -0.2em;content: "\00a0";}pre>code {padding: 0;margin: 0;font-size: 100%;word-break: normal;white-space: pre;background: transparent;border: 0;}.highlight {margin-bottom: 16px;}.highlight pre,pre {padding: 16px;overflow: auto;font-size: 85%;line-height: 1.45;background-color: #f7f7f7;border-radius: 3px;}.highlight pre {margin-bottom: 0;word-break: normal;}pre {word-wrap: normal;}pre code {display: inline;max-width: initial;padding: 0;margin: 0;overflow: initial;line-height: inherit;word-wrap: normal;background-color: transparent;border: 0;}pre code:before,pre code:after {content: normal;}kbd {display: inline-block;padding: 3px 5px;font-size: 11px;line-height: 10px;color: #555;vertical-align: middle;background-color: #fcfcfc;border: solid 1px #ccc;border-bottom-color: #bbb;border-radius: 3px;box-shadow: inset 0 -1px 0 #bbb;}.pl-c {color: #969896;}.pl-c1,.pl-s .pl-v {color: #0086b3;}.pl-e,.pl-en {color: #795da3;}.pl-s .pl-s1,.pl-smi {color: #333;}.pl-ent {color: #63a35c;}.pl-k {color: #a71d5d;}.pl-pds,.pl-s,.pl-s .pl-pse .pl-s1,.pl-sr,.pl-sr .pl-cce,.pl-sr .pl-sra,.pl-sr .pl-sre {color: #183691;}.pl-v {color: #ed6a43;}.pl-id {color: #b52a1d;}.pl-ii {background-color: #b52a1d;color: #f8f8f8;}.pl-sr .pl-cce {color: #63a35c;font-weight: bold;}.pl-ml {color: #693a17;}.pl-mh,.pl-mh .pl-en,.pl-ms {color: #1d3e81;font-weight: bold;}.pl-mq {color: #008080;}.pl-mi {color: #333;font-style: italic;}.pl-mb {color: #333;font-weight: bold;}.pl-md {background-color: #ffecec;color: #bd2c00;}.pl-mi1 {background-color: #eaffea;color: #55a532;}.pl-mdr {color: #795da3;font-weight: bold;}.pl-mo {color: #1d3e81;}kbd {display: inline-block;padding: 3px 5px;font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;line-height: 10px;color: #555;vertical-align: middle;background-color: #fcfcfc;border: solid 1px #ccc;border-bottom-color: #bbb;border-radius: 3px;box-shadow: inset 0 -1px 0 #bbb;}.task-list-item {list-style-type: none;}.task-list-item+.task-list-item {margin-top: 3px;}.task-list-item input {margin: 0 0.35em 0.25em -1.6em;vertical-align: middle;}:checked+.radio-label {z-index: 1;position: relative;border-color: #4078c0;}.sourceLine {display: inline-block;}code .kw { color: #000000; }code .dt { color: #ed6a43; }code .dv { color: #009999; }code .bn { color: #009999; }code .fl { color: #009999; }code .ch { color: #009999; }code .st { color: #183691; }code .co { color: #969896; }code .ot { color: #0086b3; }code .al { color: #a61717; }code .fu { color: #63a35c; }code .er { color: #a61717; background-color: #e3d2d2; }code .wa { color: #000000; }code .cn { color: #008080; }code .sc { color: #008080; }code .vs { color: #183691; }code .ss { color: #183691; }code .im { color: #000000; }code .va {color: #008080; }code .cf { color: #000000; }code .op { color: #000000; }code .bu { color: #000000; }code .ex { color: #000000; }code .pp { color: #999999; }code .at { color: #008080; }code .do { color: #969896; }code .an { color: #008080; }code .cv { color: #008080; }code .in { color: #008080; }</style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Motor de dos tiempos (parte 1)</h1>
+</header>
+<p><br><br></p>
+<h3 id="introducción">1. Introducción</h3>
+<p>En los últimos años se ha restringido mucho el uso de estos motores
+fundamentalmente por problemas de contaminación y eficiencia.
+Actualmente son más raros de ver.</p>
+<p>¿Dónde se usan ahora los motores de 2T? Por ejemplo en motosierras,
+desmalezadoras, cortadoras de pasto, etc. Los motores de 2 tiempos
+tienen una construcción muy sencilla. Abajo puedes ver un motor de dos
+tiempos justo cuando explota la mezcla aire-combustible.</p>
+<center>
+<img role="img" src="data:image/gif;base64,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" width="400" />
+</center>
+<center>
+<span class="grey3 size80">Source:
+https://animatedengines.com/twostroke.html </span>
+</center>
+<p>Cualquier explosión (fuego) requiere tres cosas:</p>
+<ul>
+<li>1- Aire (oxígeno)</li>
+<li>2- Combustible</li>
+<li>3- Fuente de calor (chispa de la bujía)</li>
+</ul>
+<p><br><br></p>
+<h3 id="funcionamiento-básico">2. Funcionamiento básico</h3>
+<p>En este <a href="https://www.youtube.com/watch?v=g9kKzzkeJPQ">video</a> puedes ver
+que el motor tiene dos fases (tiempos):</p>
+<ul>
+<li><p><strong>1er tiempo (compresión + admisión):</strong></p>
+<ul>
+<li>El pistón sube.</li>
+<li>Se comprime la mezcla de aire-combustible.</li>
+<li>Al mismo tiempo, entra mezcla al cárter.</li>
+</ul></li>
+<li><p><strong>2do tiempo (explosión + escape):</strong></p>
+<ul>
+<li>Salta la chispa, explota la mezcla.</li>
+<li>El pistón baja con fuerza (transmite energía).</li>
+<li>Se expulsan los gases por el escape.</li>
+<li>Entra nueva mezcla al cilindro.</li>
+</ul></li>
+</ul>
+<p><br><br></p>
+<h3 id="actividad">3. Actividad</h3>
+<p><strong>b)</strong> Teniendo en cuenta lo que aprendiste y lo que
+viste en el video del punto anterior completa el siguiente texto con las
+palabras correctas. En cada línea va una sola palabra:</p>
+<blockquote>
+<p>Los motores de ____ tiempos se usan por ejemplo en karts por que son
+más livianos y potentes que los motores de ____ tiempos.
+Constructivamente tienen varias similitudes. Ambos cuentan con un
+mecanismo de pistón, biela y cigueñal como se muestra en la figura de
+abajo. El ____ es un eje con ciertas partes descentradasque permite
+convertir el movimiento alternativo del ____ en uno giratorio. El
+espacio en donde está montado el cigueñal (la caja del cigueñal) se
+llama también carter. Pero mientras los motores de 4T tienen válvulas de
+admisión y escape los motores de 2T tienen conductos (o lumbreras) por
+donde entra el ____ o salen los gases de escape. Cuenta también con una
+____ para producir una chispa en el momento adecuado. En el caso de los
+motores de 2T hay una chispa (explosión) por cada vuelta del cigueñal.
+En cambio en los de 4T el cigueñal da ____ vueltas por cada chispa
+(explosión).</p>
+</blockquote>
+<center>
+<img role="img" src="data:image/gif;base64,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" width="400" />
+</center>
+<center>
+<span class="grey3 size80">Fuente de la imagen:
+motoresdedostiempos2t.blogspot.com. Aquí se pueden ver las partes
+principales.</span>
+</center>
+<p><strong>a)</strong> Según la imagen de abajo une con flechas las
+letras con las partes del motor que se corresponden:</p>
+<center>
+<img role="img" src="mot2t_partes.png" width="500" />
+</center>
+<center>
+<span class="grey3 size80">Fuente de la imagen:
+https://www.facebook.com. Aquí se pueden ver las partes principales pero
+desde el exterior del motor.</span>
+</center>
+<pre><code>    A               Bujía
+
+    B               Carter
+
+    C               Cilindro 
+
+    D               Carburador
+
+    E               Caño de escape</code></pre>
+<p><br><br></p>
+<div hidden>
+<h2 id="uso-y-mantenimiento-práctico">Uso y mantenimiento práctico</h2>
+<ul>
+<li><p><strong>Mezcla de combustible:</strong></p>
+<ul>
+<li><p>El motor no tiene cárter con aceite como un motor de 4T. Por esto
+ee debe mezclar aceite especial en el combustible para lubricar el
+motor.</p></li>
+<li><p><strong>Proporción típica:</strong> 50:1 o 40:1, según el
+fabricante.</p></li>
+</ul></li>
+<li><p><strong>Ejemplo:</strong> ¿Cuánto aceite mezclar para 5 litros de
+nafta?</p>
+<ul>
+<li>Si la relación es 50:1 → significa 50 partes de combustible con una
+parte de aceite. Si 5 litros representan 50 partes entonces una parte
+será 5/50 = 0,1 litros. Como 0,1 litro es equivalente a 100 ml
+(multiplicar por 1000) se puede decir que hay que poner 100 ml de
+aceite. En la figura de abajo se puede observar como los recipientes
+graduados en mililitros nos facilita la tarea.</li>
+</ul></li>
+</ul>
+<center>
+<img role="img" src="mot2t_mezcla.png" width="400" />
+</center>
+<center>
+<span class="grey3 size80">Fuente de la imagen: www.maxiscoot.com. Aquí
+se pueden ver que este recipiente está graduado en litros y
+mililitros.</span>
+</center>
+<ul>
+<li><p><strong>Mantenimiento básico:</strong></p>
+<ul>
+<li>Limpieza del filtro de aire.</li>
+<li>Revisión y cambio de bujía.</li>
+<li>No guardar con combustible por mucho tiempo.</li>
+<li>Evitar que se tape el escape (carbonilla).</li>
+<li>Almacenar con el tanque vacío si no se va a usar.</li>
+</ul></li>
+</ul>
+<p><br><br></p>
+<h2 id="actividad-2">Actividad 2</h2>
+<ul>
+<li><p><strong>a)</strong> Si a una máquina de cortar el cesped con
+motor 2T que usa una relación 40:1 se le carga 2 litros de combustible
+¿Cuántos mililitros de aceite hay que agregarle?</p></li>
+<li><p><strong>c)</strong> Una moto que carga 6 litros de combustible
+usa una relación 50:1. ¿Cuánto acceite hay que aregarle?</p></li>
+<li><p><strong>d)</strong> Piensa (investiga) y contesta:</p>
+<ul>
+<li>¿Qué pasaría si se tapa el escape?</li>
+<li>¿O si entra tierra por el filtro?</li>
+<li>¿Qué pasaría si usamos solo nafta?</li>
+</ul></li>
+</ul>
+</div>
+<!-- HTML style definitions -->
+<style>
+
+.grey1 {color: #b3b3b3;} 
+.grey2 {color: #999999;} 
+.grey3 {color: #808080;} 
+.blue1 {color: #6495ed;} 
+.blue2 {color: #276cdf;} 
+.sky1 {color: #7dbed8;} 
+.sky2 {color: #27a2db;} 
+.green {color: #81b524;} 
+.red1 {color: #ec5469;} 
+.red2 {color: #f44336;} 
+.rose {color: #ec9998:} 
+.gold {color: #df9d43;} 
+.orange1 {color: #fda556;} 
+.orange2 {color: #ff9505;} 
+.purple1 {color: #ff40ff;} 
+.purple2 {color: #d164d7;} 
+
+.size90 {font-size: 0.9em;}
+.size85 {font-size: 0.85em;}
+.size80 {font-size: 0.8em;}
+.size70 {font-size: 0.7em;}
+
+body {font-size: 1.1em;}
+</style>
+<!-- Use <span> inline and <div> with several lines --->
+</body>
+</html>
