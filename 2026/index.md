@@ -12,14 +12,16 @@ version: "01/03/26"
 
 **Profesor:** José Juarez
 
-<div hidden>
 <div class="size80">
 
 **Criterios de aprobación**
 
 - **Cuatrimestre 1:** Tener **A** en Bimestre 1 y 2
-   + **Bimestre 1:** Tener **A** en Guía 3 (Alt. 1) y Prueba 1
-   + **Bimestre 2:** Tener **A** en Guía 5 (Alt. 2), Guía 6 (Alt. 3) y Prueba 2.
+   + **Bimestre 1:** Tener **A** en Alt. 1, Alt. 2 y Prueba 1
+
+<div hidden>
+
++ **Bimestre 2:** Tener **A** en Guía 5 (Alt. 2), Guía 6 (Alt. 3) y Prueba 2.
 
 - **Cuatrimestre 2:** Tener **A** en Bimestre 3 y 4
    + **Bimestre 3:** Tener **A** en Guía 9 (Alt. 5) y Guía 10 (Alt 6)
@@ -35,11 +37,13 @@ version: "01/03/26"
 ## Guías de aprendizaje
 
 - [1. Introducción](01_intro.html)
+   <br>&emsp;<span class="grey3 size80">Tarea Alternancia 0: Punto 2</span> 
+   <br>&emsp;<span class="grey3 size80">Tarea Alternancia 1: Punto 3</span> 
 
 - [2. Magnitudes y unidades usadas en mecánica](02_magnitudes_unidades.html)
 
 - [3. Motores de 2 tiempos - parte 1](03_mot2t_1.html)
-
+   <br>&emsp;<span class="grey3 size80">Tarea Alternancia 2: Punto 2</span> 
 
 <div hidden>
 
@@ -71,13 +75,15 @@ version: "01/03/26"
 
 <span hidden>Fin archivo</span>
 
+
+</div>
+
 <br>
 
 ---
 
-**Verifica** tu progreso [aquí](https://iosephj.pythonanywhere.com/notas/cfr_mec3_25) poniendo como clave `progreso2025` y luego tu número de lista.
+**Verifica** tu progreso [aquí](https://script.google.com/macros/s/AKfycbyvHb0UdlvLyjDOfbcyq1EIbvj0KpIKTzec9dcPJwlIu34WPe4EptGnaYw7xaRJ4naX4Q/exec) poniendo como clave tu DNI.
 
-</div>
 
 <!-- HTML style definitions -->
 <style>
