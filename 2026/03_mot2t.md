@@ -1,5 +1,5 @@
 ---
-title: "Motor de dos tiempos (parte 1)"
+title: "Motor de dos tiempos"
 autor: "José Juarez"
 version: "22/04/26"  
 ---
@@ -88,6 +88,9 @@ E Cilindro</div>
 
 ### 3. El Carburador
 
+El principio básico de la física para entender como funciona un carburador es el efecto "venturi" o "Bernoullí". Básicamente consiste hacer pasar aire por un lugar que se estrecha, por este motivo el aire aumenta su velocidad y puede chupar y arrastrar partículas líquidas que se pulverizan. Puedes ver un esquema de ese efecto [aquí](https://www.youtube.com/watch?v=jTrahW9jI0c). 
+
+<span hidden>Agregar una imagen o hacerla en el pizarrón</span>
 
 <!-- Image -->
 <br>
@@ -103,57 +106,101 @@ El carburador mezcla el aire con el combustible en la proporción correcta para 
 Las partes principales son:
 
 - Filtro de aire: Evita que el polvo y diversas partículas entre al motor y lo rompa.
-- Cebador: Cierra un poco el paso del aire para que la mezcla tenga más combustible. Sirve en el arranque cuando el motor está frío.
+- Cebador (o ahogador): Cierra un poco el paso del aire para que la mezcla tenga más combustible. Sirve en el arranque cuando el motor está frío.
 - Venturi: estrangula el pasaje de aire y esto permite que el aire aumente su velocidad y arrastre combustible
 - Flotador y cámara del flotador: regula la cantidad de combustible
 - Acelerador: Abre y cierra el pasaje de la mezcla aire-combustible. Cuando abre pasa más cantidad, el motor se llena y explota más rápido, aumenta la velocidad.
+
+**Importante:** Aunque el carburador fue un sistema muy importante y práctico durante muchos años, tiene limitaciones porque no siempre logra quemar todo el combustible de manera eficiente, produciendo mayor consumo y gases contaminantes, por lo que está siendo reemplazado por sistemas de inyección electrónica.
+
 
 #### Actividad
 
 **1)** Dibujar el esquema del carburador y poner con flechas los nombres de las partes y sus **funciones**.
 
-**2)** Cuando el motor está andando pero no se apreta el acelerador para nada el carburador pone menos combustible en la mezcla y el motor gira a una velocidad estable. ¿Cómo se llama esta velocidad?
+**2)** Escribe y completa esta frase que resume como actúa el carburador: *El carburador mezcla _____ y combustible usando el efecto Venturi, que al hacer pasar aire por una parte angosta succiona _____: en ralentí deja pasar poca mezcla para que el motor siga encendido _____, y al aumentar la aceleración deja entrar _____ mezcla para generar más potencia.*
+
+<span hidden>Rta: aire, combustible, despacio, más</span>
+
+**3)** Aunque hoy en día los carburadores ya casi no existen (reemplazados por la inyección electrónica) hay algunas aplicaciones en donde permanecen. Mira este [video](https://www.youtube.com/watch?v=cYI8iEHoh-A&t=35s) y escribe porqué Ryan defiende su uso en las motociletas.
 
 
-<div hidden>
-- **Mezcla de combustible:**
+<br>
 
-   + El motor no tiene cárter con aceite como un motor de 4T. Por esto ee debe mezclar aceite especial en el combustible para lubricar el motor.
+<span class="red2 size80">(Tarea de alternancia 3: Hacer el pto. 4. En la hoja decía pto. 6 por error)</span> 
 
-   + **Proporción típica:** 50:1 o 40:1, según el fabricante. 
+### 4. Operación y mantenimiento basicos de un motor 2T
 
-- **Ejemplo:** ¿Cuánto aceite mezclar para 5 litros de nafta?
+#### Operación
 
-   + Si la relación es 50:1 → significa 50 partes de combustible con una parte de aceite. Si 5 litros representan 50 partes entonces una parte será 5/50 = 0,1 litros. Como 0,1 litro es equivalente a 100 ml (multiplicar por 1000) se puede decir que hay que poner 100 ml de aceite. En la figura de abajo se puede observar como los recipientes graduados en mililitros nos facilita la tarea.
+La operación básica del motor supone saber preparar la mezcla combustible - aciete. Hay que fijarse en el manual de la máquina pero lo típico es que el motor lleve una mezcla **combustible-aceite 40:1**. Esto significa 40 partes de nafta por 1 parte de aceite para motor 2T.
+
+***Ejemplo:*** Si quieres preparar la mezcla con un litro de nafta ¿cuánto litros y mililitros de aceite pones?
+
+&nbsp;&nbsp;Planteas una regla de 3 simple:
+
+&nbsp;&nbsp;&nbsp;&nbsp;A 40 litros de nafta ⟶  1 litro de aceite
+
+&nbsp;&nbsp;&nbsp;&nbsp;A 1 litro de nafta ⟶   x litros de aceite
+
+&nbsp;&nbsp;x = (1 · 1) / 40 = 1 / 40 = 0,025 litros de aceite 2T
+
+&nbsp;&nbsp;Para pasar a mililitros multiplicas los litros por 1000, es decir: `0,025 · 1000 = 25` ml (mililitros). 
+
+&nbsp;&nbsp;**Rta:** Se debe poner 0,025 litros de aceite que equivalen a 25 ml (mililitros)
+
+La pregunta que surge es como medir las cantidades. Para esto vienen bidones con marcas o también vasos graduados como en la figura.
 
 <center>![](mot2t_mezcla.png){width=400px}</center>
-<center><span class="grey3 size80">Fuente de la imagen: www.maxiscoot.com. Aquí se pueden ver que este recipiente está graduado en litros y mililitros.</span></center>
+<center><span class="grey3 size80">Recipiente graduado en litros y mililitros.</span></center>
+
+#### Actividad 1
+
+1) Si quieres preparar una mezcla con 2,5 litros de combustible ¿Cuántos litros y mililitros de aceite le agregas?
+2) Si quieres preparar un litro de mezcla total ¿Cuánto aceite y cuanto combustible agregas? Este problema es un desafío para pensar y es distinto a lo que se explicó.
+3) Si a una máquina de cortar el cesped con motor 2T que usa una relación 40:1 se le carga 2 litros de combustible ¿Cuántos mililitros de aceite hay que agregarle?
+4) Una moto que carga 6 litros de combustible usa una relación 50:1. ¿Cuánto acceite hay que aregarle?
+
+<div class="grey3">
+
+<details>
+
+<summary>**Cuando termines haz **Clic aquí** para comprobar resultados</summary>
+
+<div class="size80">
+
+Si no coinciden los resultados busca el error y corriges. Si llegas a la conclusión de que está mal el resultado propuesto aquí pones en la carpeta: Me parece que está mal el resultado de la guía.
+
+(Aquí no aparece pero en la carpeta debe aparecer el procedimiento de resolución)
+
+1) **0,0625** litros, **62,5** ml
+2) **0,975** litros de combustible (975 ml), **0,025** lirtos de aceite (25 ml)
+3) **50** ml
+4) **0,12** litros (120 ml)
+
+</div>
+
+</details>
+
+</div>
 
 
-- **Mantenimiento básico:**
+#### Mantenimiento
 
-   + Limpieza del filtro de aire.
-   + Revisión y cambio de bujía.
-   + No guardar con combustible por mucho tiempo.
-   + Evitar que se tape el escape (carbonilla).
-   + Almacenar con el tanque vacío si no se va a usar.
+Siempre conviene fijarse las pautas de mantenimiento que aparecen en el manual de la máquina. De todos modos el mantenimiento básico involucra estos items:
 
-<br><br>
-
-## Actividad 2
-
-- **a)** Si a una máquina de cortar el cesped con motor 2T que usa una relación 40:1 se le carga 2 litros de combustible ¿Cuántos mililitros de aceite hay que agregarle?
-
-- **c)** Una moto que carga 6 litros de combustible usa una relación 50:1. ¿Cuánto acceite hay que aregarle?
-
-- **d)** Piensa (investiga) y contesta: 
-
-   + ¿Qué pasaría si se tapa el escape?
-   + ¿O si entra tierra por el filtro?
-   + ¿Qué pasaría si usamos solo nafta?
+* Limpieza del filtro de aire.
+* Revisión y cambio de bujía.
+* No guardar con combustible por mucho tiempo.
+* Evitar que se tape el escape (carbonilla).
+* Almacenar con el tanque vacío si no se va a usar.
 
 
- </div>
+#### Actividad 2
+
+1) Investiga cuanto puede durar una bujía y como es su apariencia cuando hay que cambiarla. También como se saca y cambia. Explica todo esto brevemente.
+2) Explica la importancia del filtro de aire y como se limpia generalmente.
+
 
 
 <!-- HTML style definitions -->
