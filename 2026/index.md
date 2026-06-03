@@ -42,8 +42,9 @@ version: "01/03/26"
 
 - [2. Magnitudes y unidades usadas en mecánica](02_magnitudes_unidades.html)
 
-- [3. Motores de 2 tiempos - parte 1](03_mot2t_1.html)
+- [3. Motores de 2 tiempos](03_mot2t.html)
    <br>&emsp;<span class="grey3 size80">Tarea Alternancia 2: Punto 2</span> 
+   <br>&emsp;<span class="grey3 size80">Tarea Alternancia 3: Punto 4</span> 
 
 <div hidden>
 
