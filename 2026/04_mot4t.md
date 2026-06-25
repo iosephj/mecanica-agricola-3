@@ -1,7 +1,7 @@
 ---
-title: ""
+title: "El motor de 4 tiempos"
 autor: "José Juarez"
-version: "//26"
+version: "25/06/26"
 ---
 
 
@@ -16,33 +16,104 @@ version: "//26"
 <br>
    <center>![](https://www.actualidadmotor.com/wp-content/uploads/2019/06/cuatro-tiempos-830x460.png){width=500px}</center>
    <center>
-      <span class="grey3 size70">Motor de 4T. </span>
-      <span class="grey3 size50">Fuente: actualidadmotor.com</span>
+      <span class="pie">Motor de 4T </span>
+      <span class="fuente">(actualidadmotor.com)</span>
    </center>
 <br>
 
 El motor de 4 tiempos es un motor de combustión interna muy usado actualmente. Puede funcionar con nafta o gasoil:
 
-- **Nafta:** funcionan, en general, siguiendo el ciclo Otto, caracterizado por el encendido mediante bujía.
-- **Gasoil (diésel):** funcionan siguiendo el ciclo Diesel, donde el encendido se produce por la alta compresión del aire.
+- **Nafta:** se caracteriza por el encendido de la mezcla aire-combustible mediante una bujía que produce una chispa.
+- **Gasoil (diesel):** el encendido se produce solo por la alta compresión que se alcanza cuando el pistón sube.
 
-Son los motores de los autos, camiones, motos, etc. En el ámbito agropecuario está en tractores, motobombas, generadores, etc.
+Estos motores se usan en autos, camiones, motos, etc. En el ámbito agropecuario está en tractores, motobombas, generadores, etc.
 
 El ciclo completo de este motor consta de 4 momentos que se corresponden con un movimiento hacia arriba o hacia abajo del pistón:
 
 - **Admisión**: Entrada de mezcla aire-combustible (movimiento hacia abajo). 
-
 - **Compresión**: El pistón comprime la mezcla (movimiento hacia arriba).
-
 - **Explosión** (o expansión): Se enciende la mezcla, genera energía (movimiento hacia abajo).
-
 - **Escape**: Salida de gases quemados (movimiento hacia arriba).
 
 #### Actividad
 
+<div class="actividad">
+
 **a)** Dibujar esquemáticamente los 4 momentos del motor poniendo especial cuidado en mostrar bien la posición de las válvulas.
 
 **b)** Mirar hasta comprender bien esta [animación](https://animatedengines.com/otto.html) de como funciona. Puedes regular la velocidad para verla más despacio. *Four strokes engine* significa motor de 4 tiempos en inglés. Responde esta prgunta: ¿De donde le viene el movimiento a las válvulas de admisión y escape, es decir de qué componentes del motor nace su movimiento?
+
+**c)** Completa el siguiente texto poniendo una sola palabra en cada línea: *Un motor de ____ tiempos realiza cuatro carreras del pistón para completar un ciclo: admisión, ____, explosión y ____. Un motor de ____ tiempos hace todo el ciclo en solo dos carreras, por lo que es más rápido pero suele desgastarse más y ____ más combustible. Los motores de 4T son más eficientes y duraderos.*
+
+<div hidden class="blue2">
+**Solución:** Un motor de **__4__** tiempos realiza cuatro carreras del pistón para completar un ciclo: admisión, **__compresión__**, explosión y **__escape__**. Un motor de **__2__** tiempos hace todo el ciclo en solo dos carreras, por lo que es más rápido pero suele desgastarse más y **__consumir__** más combustible. Los motores de 4T son más eficientes y duraderos.
+</div>
+
+</div>
+
+### 2. Partes principales del motor
+
+En este caso se muestran las partes de un motor de nafta (encendido mediante bujía):
+
+<span hidden>Image</span>
+   <center>![](https://i.pinimg.com/736x/1e/86/0c/1e860c06295f44ae1664699a40b996b5.jpg){width=500px}</center>
+  <center>
+      <span class="pie"></span>
+      <span class="fuente">(i.pining.com)</span>
+  </center>
+
+#### Actividad
+
+<div class="actividad">
+
+**a)** Observa bien la imagen del punto anterior e intenta dibujarla, aunque no sea tan perfecta. Agrega flechas que unan los siguientes nombres con las partes correspondientes de tu dibujo: cilindro, pistón, biela, cigüeñal, válvula de admisión, válvula de escape, árbol de levas, bujía y cárter.
+
+**b)** Haz esta actividad referida a motores 4T nafteros, también conocidos como motores Otto, en honor a su inventor, Nikolaus Otto.
+
+   - Abre este [link](https://www.liveworksheets.com/w/es/motores-de-combustion/1498413) y completa la actividad interactiva que aparece arrastrando los recuadros o escribiendo lo que corresponda. Al final cuando la hayas completado aprieta el botón **"Finish"** para que la página corrija tu trabajo.
+   - Escribe que errores tuviste y que palabras nuevas aprendiste
+
+</div>
+
+
+### 3. Comparación entre el motor 2T y 4T
+
+Los motores de 4 tiempos (4T) y de 2 tiempos (2T) realizan la misma función: transformar la energía del combustible en movimiento. Sin embargo, lo hacen de manera diferente, lo que influye en su potencia, consumo de combustible, durabilidad, mantenimiento y aplicaciones más habituales. Comparar ambos tipos de motores permite comprender sus ventajas y desventajas.
+
+#### Actividad
+
+<div class="actividad">
+
+Investiga y completa el siguiente cuadro comparativo entre los motores de 4T y 2T. Poner algo donde está cada línea "___". En cada una puede haber una palabra o varias formando una frase según el caso.
+
+
+| **Aspecto**                | **Motor 4 tiempos (4T)**                    | **Motor 2 tiempos (2T)**                   |
+| -------------------------- | ------------------------------------------- | ------------------------------------------ |
+| **Número de carreras**     | 4                                           | ___                                        |
+| **Ciclo completo**         | En ___ vueltas del cigüeñal                 | En ____ vuelta del cigüeñal                |
+| **Lubricación**            | Por aceite en el ____                       | Por aceite mezclado con el ____            |
+| **Consumo de combustible** | ___                                         | ___                                        |
+| **Durabilidad**            | ___                                         | ___                                        |
+| **Potencia por peso**      | ___                                         | ___                                        |
+| **Uso común**              | Tractores, generadores, autos               | Motosierra, motoguadañas, motos pequeñas   |
+| **Mantenimiento**          | Menos frecuente, pero más complejo          | Más frecuente, pero más simple             |
+
+</div>
+
+<div hidden class="blue2">
+**Solución**
+
+| **Aspecto**                | **Motor 4 tiempos (4T)**                    | **Motor 2 tiempos (2T)**                   |
+| -------------------------- | ------------------------------------------- | ------------------------------------------ |
+| **Número de carreras**     | 4                                           | **__2__**                                  |
+| **Ciclo completo**         | En **__dos__** vueltas del cigüeñal         | En **__una__** vuelta del cigüeñal         |
+| **Lubricación**            | Por aceite en el **__cárter__**             | Por aceite mezclado con el **__combustible__** |
+| **Consumo de combustible** | **__Menor__**                               | **__Mayor__**                              |
+| **Durabilidad**            | **__Mayor, menos desgaste__**               | **__Menor, más desgaste__**                |
+| **Potencia por peso**      | **__Menor__**                               | **__Mayor__**                              |
+| **Uso común**              | Tractores, generadores, autos               | Motosierra, motoguadañas, motos pequeñas   |
+| **Mantenimiento**          | Menos frecuente, pero más complejo          | Más frecuente, pero más simple             |
+</div>
 
 
 
@@ -54,88 +125,128 @@ El ciclo completo de este motor consta de 4 momentos que se corresponden con un 
 
 <div hidden>
 
-
-<!-- Learning objectives very briefly -->
-<span class="grey3 size85">.</span>
-
 <!-- Image -->
 <br>
-   <center>![](){width=400px}</center>
+   <center>{width=400px}</center>
    <center>
-      <span class="grey3 size70">. </span>
-      <span class="grey3 size50">Fuente: </span>
+      <span class="pie"></span>
+      <span class="fuente"></span>
    </center>
 <br>
 
 <!-- Videos: change XXX to the video-id and put time (seconds) -->
 <!-- Yotube with start point -->
 👉 [Mira este momento clave en el video](https://www.youtube.com/watch?v=XXX&t=123s)
-🎬 [Un fragmento que vale la pena ver](https://www.youtube.com/watch?v=XXX&t=123s)
-🔎 [Este detalle del video te va a interesar](https://www.youtube.com/watch?v=XXX&t=123s)
-⚡ [Dale play a esta parte y fijate qué pasa](https://www.youtube.com/watch?v=XXX&t=123s)
 <!-- Youtubetrimmer with start and end point -->
 👉 [Mirá este momento puntual del video](https://youtubetrimmer.com/view/?v=XXX&start=120&end=150&loop=0)
-🎬 [Este fragmento explica justo lo que necesitamos](https://youtubetrimmer.com/view/?v=XXX&start=120&end=150&loop=0)
-⚡ [Dale play a esta parte y sacá tus conclusiones](https://youtubetrimmer.com/view/?v=XXX&start=120&end=150&loop=0)
-🔎 [Fijate qué pasa en este momento](https://youtubetrimmer.com/view/?v=XXX&start=120&end=150&loop=0)
-
-<!-- Visible story or anecdote -->
-<span class="grey3 size85">...</span>
-
-<!-- Sections -->
-<br><span class="grey3 size70">🔁 Repaso:</span>
-<br><span class="grey3 size70">🛠️ Trabajo:</span>
-<br><span class="grey3 size70">📘 Teoría:</span>
-<br><span class="grey3 size70">✅ Autoevaluación:</span>
-<br><span class="grey3 size70">📝 Práctica:</span>
-**1.**  **:**
-**2.** **:** 
-
-<!-- Solutions -->
-<div class="grey3 size70">.</div>
-
 
 </div>
 
 
-<!-- Guide style definitions -->
+<!-- *** GUIDE STYLE DEFINITIONS *** -->
 <style>
-/* Colors */
-.grey1 {color: #b3b3b3;} /* my light-grey */
-.grey2 {color: #999999;} /* my middle-grey */
-.grey3 {color: #808080;} /* my dark-grey */
-.blue1 {color: #6495ed;} /* nvim blue */
-.blue2 {color: #276cdf;} /* Andrew Ng Blue */
-.sky1 {color: #7dbed8;} /* nvim sky */
-.sky2 {color: #27a2db;}   /* my sky */
-.green {color: #81b524;} /* my green */
-.red1 {color: #ec5469;} /* my coral-red */
-.red2 {color: #f44336;} /* my red */
-.rose {color: #ec9998:} /* nvim rose */
-.gold {color: #df9d43;} /* Andrew Ng gold */
-.orange1 {color: #fda556;} /* nvim orange */
-.orange2 {color: #ff9505;} /* Andrew Ng orange */
-.purple1 {color: #ff40ff;} /* Andrew Ng purple */
-.purple2 {color: #d164d7;} /* Andrew Ng purple */
-/* Font Size */
-.size90 {font-size: 0.9em;}
-.size85 {font-size: 0.85em;}
-.size80 {font-size: 0.8em;}
-.size70 {font-size: 0.7em;}
-.size60 {font-size: 0.6em;}
-.size50 {font-size: 0.5em;}
-/* Document General Font Size */
-body {font-size: 1.3em;}
-/* Bullet "1." see as "1)" */
-ol {list-style-type: decimal;}
-ol li::marker {content: counter(list-item) ") ";}
-/* Two columns */
-.two-columns {
-  column-count: 2; /* Number of columns */
-  column-gap: 20px;
+
+/* =========================
+   ESTILO GENERAL (PANTALLA)
+   ========================= */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1.3em;
+    color: #222222;
+    line-height: 1.4;
+    /* max-width: 800px; /*800px es el largo facilitar lectura */
+    margin: auto;
+    padding: 1.5em;
 }
-/* Indent the example */
-.example {margin-left: 20px;}
+
+/* Título principal de la guía */
+h1 {
+    color: #1F4E79; /* azul técnico */
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.3em;
+}
+
+/* Secciones principales */
+h3 {
+    margin-top: 1.2em;
+    margin-bottom: 0.4em;
+    color: #222;
+}
+
+/* Subtítulos menores (si los usas) */
+h4 {
+    margin-top: 0.8em;
+    margin-bottom: 0.3em;
+    color: #222;
+}
+
+/* Lists */
+
+ol {  /*Apaga el estilo automático y se toma el control */
+    list-style: none;
+    counter-reset: item;
+    margin-left: 0;
+    padding-left: 0.5em; /* 1em */
+}
+
+ol li {  /* Crea un numerado y formato propio con ") " */
+    counter-increment: item;
+}
+
+ol li::before {
+    content: counter(item) ") ";
+    font-weight: bold;
+}
+
+
+/* =========================
+   BLOQUES DE CONTENIDO
+   ========================= */
+
+/* Ejemplos: bloque visual con sangría */
+.ejemplo {
+    margin: 0.5em 0;
+    padding-left: 0.5em; /* 1em */
+    border-left: 2px solid #1F4E79;
+}
+
+/* Actividades: sin color, solo orden */
+.actividad {
+    margin: 0.5em 0;
+    padding-left: 0.5em; /* 1em */
+}
+
+/* Soluciones: más discretas */
+.soluciones {
+    margin-top: 0.5em;
+    font-size: 0.8em;
+    /* color: #333333; /* Más oscuro */
+    color: #808080; /* Más claro */
+}
+
+/* Pie de figura */
+.pie {
+    font-size: 0.7em;
+    /* color: #333333; /* Más oscuro */
+    color: #808080; /* Más claro */
+}
+
+/* Fuente */
+.fuente {
+    font-size: 0.5em;
+    /* color: #333333; /* Más oscuro */
+    color: #808080; /* Más claro */
+}
+
+/* Advertencias + visibles (raras) */
+.advertencia {
+    font-size: 0.8em;
+    color: #f44336; /* Rojo */
+}
+
+
+
 
 /* =========================
    IMPRESIÓN A4 – GUÍAS
@@ -227,6 +338,13 @@ ol li::marker {content: counter(list-item) ") ";}
   nav, footer, .no-print {
     display: none;
   }
+
+  /* Evita que los bloques se corten en medio */
+  .ejemplo,
+  .actividad,
+  .respuestas {
+    break-inside: avoid;
+  }
+
 }
 </style>
-<!-- Remember: Use <span> inline and <div> with several lines --->

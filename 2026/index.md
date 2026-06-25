@@ -47,38 +47,20 @@ version: "01/03/26"
    <br>&emsp;<span class="grey3 size80">Tarea Alternancia 3: Punto 4</span> 
 
 - [4. Motores de 4 tiempos](04_mot4t.html)
+   <br>&emsp;<span class="grey3 size80">Tarea Alternancia 4: Puntos 2 y 3</span> 
 
 <div hidden>
-
-
-- [4. Motores de 2 tiempos - parte 2](04_mot2t_2.html)
-
 - [5. Motores de 4 tiempos - parte 1 (Alternancia 2)](05_mot4t_1.html)
-
 - [6. Motores de 4 tiempos - parte 2 (Alternancia 3)](06_motor4t_2.html)
-
 - [7. Motores de 4 tiempos - parte 3](07_mot4t_3.html)
-
 - [8. Mantenimiento de un motor 4T - parte 1 (Alternacia 4)](08_mantenimiento_motor_4t.html)
-
 - [9. Transmisión de potencia (Alternancia 5)](09_transmision.html)
-
 - [10. El tractor agrícola - Tipos (Alternancia 6)](10_tractor_1.html)
-
 - [11. El tractor agrícola - Lubricación](11_tractor_2.html)
-
 - [12. Implementos de acople de un tractor](12_tractor_implementos.html)
- 
 
 ## Trabajos prácticos
-
 - [TP1. Reconocimiento de componentes en motores](tp1.html)
-
-
-
-<span hidden>Fin archivo</span>
-
-
 </div>
 
 <br>
@@ -87,6 +69,7 @@ version: "01/03/26"
 
 **Verifica** tu progreso [aquí](https://script.google.com/macros/s/AKfycbyvHb0UdlvLyjDOfbcyq1EIbvj0KpIKTzec9dcPJwlIu34WPe4EptGnaYw7xaRJ4naX4Q/exec) poniendo como clave tu DNI.
 
+<span hidden>Fin archivo</span>
 
 <!-- HTML style definitions -->
 <style>
