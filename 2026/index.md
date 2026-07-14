@@ -49,6 +49,11 @@ version: "01/03/26"
 - [4. Motores de 4 tiempos](04_mot4t.html)
    <br>&emsp;<span class="grey3 size80">Tarea Alternancia 4: Puntos 2 y 3</span> 
 
+## Evaluaciones
+
+- [Prueba 1](e1_61_full.html)
+
+
 <div hidden>
 - [5. Motores de 4 tiempos - parte 1 (Alternancia 2)](05_mot4t_1.html)
 - [6. Motores de 4 tiempos - parte 2 (Alternancia 3)](06_motor4t_2.html)
