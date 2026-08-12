@@ -150,6 +150,69 @@ Observa este [video](https://www.youtube.com/watch?v=3IGsxat0byE) para entender 
 :::
 
 
+## 5. Lubricación – Cuidar las piezas internas
+
+::: warning
+
+En la hoja de tareas decía que había que hacer los puntos 7 y 8 de esta guía. Fue un error, hay que hacer las actividades de este punto 5 nomás.
+
+:::
+
+::: figure
+
+![](../images/motor4t_lubricacion.png){width=600px}
+
+<small>Sistema de lubricación típico</small>
+:::
+
+En un motor **4 tiempos**, el aceite reduce la fricción y el desgaste de las piezas móviles, además de ayudar a **refrigerar, limpiar y proteger contra la corrosión**.
+
+Un sistema típico funciona así:
+
+**Cárter → bomba de aceite → filtro → enfriador de aceite → conductos internos → piezas lubricadas → retorno al cárter**
+
+La **bomba** impulsa el aceite desde el cárter hacia el motor. El aceite llega, entre otros lugares, a los **cojinetes del cigüeñal, biela, árbol de levas y tren de válvulas**. Luego, por gravedad, vuelve al cárter y el ciclo se repite.
+
+### ¿Qué pasa con el aceite usado?
+
+Con el funcionamiento, el aceite se contamina con **partículas metálicas, residuos de combustión, suciedad y productos de oxidación**. También pierde progresivamente parte de sus propiedades. Por eso debe **cambiarse periódicamente** y el aceite usado debe recolectarse y tratarse adecuadamente, **no arrojarse al suelo ni al desagüe**.
+
+### Siglas y viscosidad del aceite
+
+La **viscosidad** es la resistencia que presenta un líquido a fluir. Un aceite **más viscoso** fluye con mayor dificultad; uno **menos viscoso** fluye más fácilmente. Además, la viscosidad cambia con la temperatura: el aceite se vuelve más fluido cuando se calienta.
+
+En Argentina se utiliza habitualmente la clasificación **SAE**, que significa **Society of Automotive Engineers** (Sociedad de Ingenieros Automotrices). La SAE clasifica los aceites principalmente según su **viscosidad**.
+
+Por ejemplo, en un aceite **SAE 20W-40**:
+
+* **20W**: indica su comportamiento de viscosidad a **bajas temperaturas**. La **W** significa *Winter* (invierno).
+* **40**: indica su viscosidad a **alta temperatura**, aproximadamente la temperatura de funcionamiento del motor.
+
+Se denomina **multigrado** porque un mismo aceite tiene una clasificación de viscosidad para **bajas temperaturas (20W)** y otra para **altas temperaturas (40)**. Esto permite que pueda fluir adecuadamente durante el arranque en frío y mantener una viscosidad apropiada cuando el motor está caliente. (Cuanto más alto es el número mayor es la viscocidad)
+
+### Actividad
+
+::: activity
+
+**1)** Busca el significado de "cojinete" y anótalo. Busca un video de menos de 4 minutos que esplique como funciona un cojinete y anota el título del video y el canal de youtube que lo contiene.
+
+**2)** Observa este [video](https://www.youtube.com/watch?v=Cz-9lhSv5ZY). Luego une las letras A, B, C, D y E que aparecen en la figura inicial de este tema con las siguientes frases:
+
+- Cojinete de cigueñal
+- Conducto que lleva aceite al árbol de levas y válvulas
+- Conducto de entrada al filtro de aceite
+- Conducto de entrada al motor que se divide en dos
+- Conducto de retorno de la zona del árbol de levas y válvulas al carter del motor
+
+**3)** Explica con tus palabras que aceite usarías en un lugar con un clima muy frío (5W 40 o 20W 40) y porqué.
+
+**4)** Consulta el manual de un motor real (auto, tractor, moto, etc.) (puede ser con ayuda de un adulto o técnico) y responde:
+
+- ¿Qué aceite usa?
+- ¿Cada cuántas horas (o Km) se cambia?
+
+:::
+
 <!-- *** GUIDE END *** -->
 
 

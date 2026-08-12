@@ -8,7 +8,7 @@ version: "01/03/26"
 <br>
 
 <div class="grey3">
-**Año:** 2026
+**Año:** 2025 (Versión reconstruida)
 
 **Profesor:** José Juarez
 
@@ -18,11 +18,7 @@ version: "01/03/26"
 
 - **Cuatrimestre 1:** Tener **A** en Bimestre 1 y 2
    + **Bimestre 1:** Tener **A** en Alt. 1, Alt. 2 y Prueba 1
-   + **Bimestre 2:** Tener **A** en Alt. 3 y Alt. 4.
-
-<div hidden>
-
-
+   + **Bimestre 2:** Tener **A** en Alt. 3, Alt. 4. y Prueba 2
 - **Cuatrimestre 2:** Tener **A** en Bimestre 3 y 4
    + **Bimestre 3:** Tener **A** en Guía 9 (Alt. 5) y Guía 10 (Alt 6)
    + **Bimestre 4:** Tener **A** en Guía 12 y Prueba 3
@@ -36,26 +32,10 @@ version: "01/03/26"
 
 ## Guías de aprendizaje
 
-- [1. Introducción](01_intro.html)
-   <br>&emsp;<span class="grey3 size80">Tarea Alternancia 0: Punto 2</span> 
-   <br>&emsp;<span class="grey3 size80">Tarea Alternancia 1: Punto 3</span> 
-
+- [1. Introducción](01_motores.html)
 - [2. Magnitudes y unidades usadas en mecánica](02_magnitudes_unidades.html)
-
-- [3. Motores de 2 tiempos](03_mot2t.html)
-   <br>&emsp;<span class="grey3 size80">Tarea Alternancia 2: Punto 2</span> 
-   <br>&emsp;<span class="grey3 size80">Tarea Alternancia 3: Punto 4</span> 
-
-- [4. Motores de 4 tiempos](04_mot4t.html)
-   <br>&emsp;<span class="grey3 size80">Tarea Alternancia 4: Puntos 2 y 3</span> 
-   <br>&emsp;<span class="grey3 size80">Tarea Alternancia 5: Punto 5</span> 
-
-## Evaluaciones
-
-- [Prueba 1](e1_61_full.html)
-
-
-<div hidden>
+- [3. Motores de 2 tiempos](03_mot2t_unidades_1.html)
+- [4. Motores de 4 tiempos](04_mot4t_2.html)
 - [5. Motores de 4 tiempos - parte 1 (Alternancia 2)](05_mot4t_1.html)
 - [6. Motores de 4 tiempos - parte 2 (Alternancia 3)](06_motor4t_2.html)
 - [7. Motores de 4 tiempos - parte 3](07_mot4t_3.html)
