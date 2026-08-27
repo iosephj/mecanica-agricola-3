@@ -213,6 +213,49 @@ Se denomina **multigrado** porque un mismo aceite tiene una clasificación de vi
 
 :::
 
+
+## 6. Sistema de refrigeración – Evitar el sobrecalentamiento
+
+Observa este [video](https://www.youtube.com/watch?v=iDomoZkLoSs) para comprender mejor el sistema de enfriamiento de un motor.
+
+Cuando el motor trabaja, genera calor por la explosión y la fricción. Para que no se dañe, debe mantenerse a una temperatura adecuada. Dependiendo del motor esta temperatura está entre 80 y 100°C.
+
+**Formas de enfriar un motor**:
+
+- **Refrigeración por aire**: utiliza aletas y, en algunos casos, un ventilador para disipar el calor hacia el ambiente. Es común en motocicletas, motoguadañas y otros motores pequeños.
+
+- **Refrigeración por agua**: utiliza un líquido refrigerante que circula por el motor y transporta el calor hasta el radiador, donde se enfría. El sistema incluye, entre otros componentes, una bomba de agua, un termostato, un radiador y un ventilador.
+
+### Actividad
+
+::: activity
+
+**a)** Dibuja un esquema del sistema de enfriamiento como el de la figura de abajo. Pon atención a las flechas que muestran la circulación del agua. Al ir atravesando el motor el agua se va calentando y por eso las flechas se van poniento cada vez más rojas. Trata de dibujarlas siguiendo el color. Los nombres en la figura están en inglés pero tu pon los que aparecen en la siguiente lista en el lugar que les corresponda.
+
+- Radiador
+- Tapa del radiador
+- Ventilador
+- Termostato
+- Bomba de agua
+
+::: figure
+![](../images/motor4t_refrigeracion.png){width=500px}
+
+<small>Sistema de refrigeración</small>
+:::
+
+**b)** Un termostato empieza a funcionar entre los 80 y 90°C. Explica con tus palabras que significa esto.
+
+**c)** Observa el indicador de temperatura de la figura. Supón que la aguja empezó a pasar a la zona roja. *1)*¿Aqué temperatura empieza esta zona? *2)* ¿Qué es lo primero a revisar? *3)* Hacer un lista de otras cosas que pueden estar fallando.
+
+::: figure
+![](../images/motor4t_reloj_agua.png){width=200px}
+:::
+
+
+:::
+
+
 <!-- *** GUIDE END *** -->
 
 
