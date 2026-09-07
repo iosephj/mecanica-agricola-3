@@ -49,11 +49,12 @@ version: "01/03/26"
 - [4. Motores de 4 tiempos](04_mot4t.html)
    <br>&emsp;<span class="grey3 size80">Tarea Alternancia 4: Puntos 2 y 3</span> 
    <br>&emsp;<span class="grey3 size80">Tarea Alternancia 5: Punto 5</span> 
+   <br>&emsp;<span class="grey3 size80">Tarea Alternancia 6: Puntos 7 y 8</span> 
 
 ## Evaluaciones
 
 - [Prueba 1](e1_61_full.html)
-
+- Temas de la Prueba 2 (Jueves 24/9): Motor 4T poniendo foco en los puntos 5 a 8
 
 <div hidden>
 - [5. Motores de 4 tiempos - parte 1 (Alternancia 2)](05_mot4t_1.html)

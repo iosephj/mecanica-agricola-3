@@ -252,8 +252,115 @@ Cuando el motor trabaja, genera calor por la explosión y la fricción. Para que
 ![](../images/motor4t_reloj_agua.png){width=200px}
 :::
 
+:::
+
+
+## 7. Arranque de un motor 4T
+
+:::figure
+![](https://images.coches.com/_news_/2019/03/Motor-de-Arranque-6.jpg){width=600px}
+<small>Al girar la llave la batería enciende el motor de arranque (Coches.com)</small>
+:::
+
+El arranque es el **momento inicial en el que el motor comienza a girar por sí mismo**, pasando de estar detenido a funcionar de forma continua.
+
+Para cualquier motor de 4T, naftero o gasolero, el proceso de arranque es el siguiente:
+
+1. Se gira la llave o se presiona el botón de encendido.
+2. La batería envía electricidad al motor de arranque.
+3. El motor de arranque hace girar el cigüeñal, lo que mueve los pistones.
+4. El motor realiza los primeros ciclos. Una vez que uno de los cilindros genera combustión real, el motor empieza a girar solo.
+5. El motor de arranque se desconecta automáticamente.
+
+[Aquí](https://www.youtube.com/watch?v=hx5WVJQFuMk) puedes ver una explicación breve y gráfica.
+
+### Actividad
+
+::: activity
+
+Hacer un esquema del arranque de un motor 4T. Puede servirte de base la figura que aparece aquí o la que hicimos en clase. Tiene que aparecer como mínimo la llave de contacto, la batería y el motor de arranque.
 
 :::
+
+## 8. Encendido de un motor 4T
+
+::: figure
+![](../images/motor4t_encedido_gasolero_naftero.jpg){width=300px}
+<small>El naftero necesita chispa mientras que el gasolero se autoenciende por compresión</small>
+:::
+
+Una vez que el motor arranca hay que lograr que se mantenga en funcionamiento por sí mismo. Para ésto hay que lograr que la mezcla aire-combustible se encienda en un momento preciso dentro de cada cilindro. Este es el objetivo del **sistema de encendido** y funciona distinto según se trate de un motor naftero o gasolero (diesel).
+
+
+### Encendido de un motor 4T naftero
+
+::: figure
+![](../images/motor4t_encedido_naftero_bujia.jpg){width=280px}
+<small>Chispa eléctrica en una bujía (Wikipedia)</small>
+:::
+
+Básicamente el motor naftero necesita de la chispa de la bujía para encender la mezcla de aire y combustible. Esta se produce gracias a la electricidad de alta tensión que llega a a la bujía en el momento justo. El momento justo es determinado por:
+
+- **un distribuidor** mecánico en motores más antiguos,
+- o por una computadora llamada **ECU** (Electronic control unit) en motores más modernos.
+
+#### ¿Cómo es el sistema con distribuidor?
+
+El distribuidor, usado en motores antiguos, es un dispositivo que:
+
+- Gira con el motor.
+- Abre y cierra un contacto llamado ruptor o "platino".
+- Manda corriente a la bujía correcta en el momento justo.
+- Esta sincronizado con el cigüeñal.
+
+Al ser un sistema mecánico es sensible al desgaste, la humedad y la suciedad.
+
+
+#### ¿Cómo es el sistema con ECU?
+
+Hoy en día, la mayoría de los vehículos usan un sistema totalmente electrónico, controlado por una ECU (Unidad de Control Electrónico).
+
+**¿Qué es la ECU?**
+
+La ECU es una computadora del motor. Controla muchas funciones, como:
+
+- El encendido (cuándo generar la chispa en cada cilindro).
+- La inyección de combustible.
+
+La ECU recibe señales de sensores (por ejemplo, del cigüeñal y del árbol de levas) y decide:
+
+- Qué bujía encender.
+- En qué momento exacto hacerlo.
+
+El sistema es más preciso, más confiable y requiere menos mantenimiento.
+
+
+### Encendido en motor 4T gasolero (Diesel)
+
+::: figure
+![](../images/motor4t_encedido_gasolero_commonrail.jpg){width=400px}
+<small>Sistema common rail (tecnologia-automovil.com)</small>
+:::
+
+Básicamente este motor no requiere ninguna chispa por que la mezcla aire-combustible se enciende sola al calentarse por la compresión. El combustible es inyectado por inyectores siendo el sistema "Common rail" uno muy común.
+
+### Actividad
+
+::: activity
+
+**a)** Piensa que en esta guía distinguimos "arranque" y "encendido". Escribe, a la luz de lo que vimos, cuál es la diferencia entre ambos.
+
+**b)** Busca un video breve que muestre como trabaja el sistema de encendido naftero por distribuidor y anota el nombre del video.
+
+**c)** Expresa con tus palabras cual es la diferencia entre el encendido de un motor 4T naftero y uno gasolero.
+
+**d)** Observa este [video](https://www.youtube.com/watch?v=qgTlBBWUM1Y) que muestra como funciona un sistema de inyección de combustible "Common rail" para motores gasolero (también puedes buscar otro que te parezca más claro). Luego escribe una explicación de como funciona este sistema asegurándote de usar las siguientes frases palabras en tu explicación: "common rail (riel común)", "ECU", "alta presión", "inyectores", "acelerador".
+
+:::
+
+<div hidden>
+El sistema common rail mantiene el combustible a una alta presión constante en el riel común permitiendo que los inyectores controlen la inyección de combustible con presición milimétrica, cuando el conductor presiona el acelerador la ECU envía señales a los inyectores para que se abran y pulvericen el combustible a alta presión directamente en la cámara de combustión.
+</div>
 
 
 <!-- *** GUIDE END *** -->
