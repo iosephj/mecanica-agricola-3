@@ -53,7 +53,19 @@ version: "01/03/26"
 
 ---
 
+**Verifica** tus pendientes [aquí](https://script.google.com/macros/s/AKfycbyvHb0UdlvLyjDOfbcyq1EIbvj0KpIKTzec9dcPJwlIu34WPe4EptGnaYw7xaRJ4naX4Q/exec) poniendo como clave la que corresponda según el listado de abajo:
+
+- Cejas, Benjamín: cebe
+- Cejas, Ian: ceiabe
+- Tello, Alejo: tetoal
+
+**Intensificación:** Hay que hacer y presentar las guías en donde aparece una "P" (pendiente) y/o en donde no aparezca nada (nunca entregada). También rendir y aprobar la prueba correspondiente. Consultar si hay dudas.  
+
+
+
+<div hidden>
 **Verifica** tu progreso [aquí](https://script.google.com/macros/s/AKfycbyvHb0UdlvLyjDOfbcyq1EIbvj0KpIKTzec9dcPJwlIu34WPe4EptGnaYw7xaRJ4naX4Q/exec) poniendo como clave tu DNI.
+</div>
 
 <span hidden>Fin archivo</span>
 
