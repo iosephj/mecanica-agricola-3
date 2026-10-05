@@ -50,7 +50,7 @@ version: "01/03/26"
    <br>&emsp;<span class="grey3 size80">Tarea Alternancia 4: Puntos 2 y 3</span> 
    <br>&emsp;<span class="grey3 size80">Tarea Alternancia 5: Punto 5</span> 
    <br>&emsp;<span class="grey3 size80">Tarea Alternancia 6: Puntos 7 y 8</span> 
-   <br>&emsp;<span class="grey3 size80">Tarea Alternancia 7: Estará dispobible lunes 5/10 a la tarde.</span> 
+   <br>&emsp;<span class="grey3 size80">Tarea Alternancia 7: Punto 9</span> 
 
 
 ## Evaluaciones

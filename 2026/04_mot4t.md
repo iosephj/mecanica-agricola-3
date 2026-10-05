@@ -7,8 +7,9 @@ version: "25/06/26"
 
 <!-- *** GUIDE START *** -->
 
+<details>
 
-## 1. Introducción al motor de 4 tiempos
+<summary>**1. Introducción al motor de 4 tiempos**</summary>
 
 ::: figure
 ![](https://www.actualidadmotor.com/wp-content/uploads/2019/06/cuatro-tiempos-830x460.png){width=500px}
@@ -44,8 +45,11 @@ El ciclo completo de este motor consta de 4 momentos que se corresponden con un 
 **Solución:** Un motor de **__4__** tiempos realiza cuatro carreras del pistón para completar un ciclo: admisión, **__compresión__**, explosión y **__escape__**. Un motor de **__2__** tiempos hace todo el ciclo en solo dos carreras, por lo que es más rápido pero suele desgastarse más y **__consumir__** más combustible. Los motores de 4T son más eficientes y duraderos.
 </div>
 
+</details>
 
-## 2. Partes principales del motor
+<details>
+
+<summary>**2. Partes principales del motor**</summary>
 
 En este caso se muestran las partes de un motor de nafta (encendido mediante bujía):
 
@@ -67,8 +71,11 @@ En este caso se muestran las partes de un motor de nafta (encendido mediante buj
  - Escribe que errores tuviste y que palabras nuevas aprendiste
 :::
 
+</details>
 
-## 3. Comparación entre el motor 2T y 4T
+<details>
+
+<summary>**3. Comparación entre el motor 2T y 4T**</summary>
 
 Los motores de 4 tiempos (4T) y de 2 tiempos (2T) realizan la misma función: transformar la energía del combustible en movimiento. Sin embargo, lo hacen de manera diferente, lo que influye en su potencia, consumo de combustible, durabilidad, mantenimiento y aplicaciones más habituales. Comparar ambos tipos de motores permite comprender sus ventajas y desventajas.
 
@@ -107,8 +114,11 @@ Investiga y completa el siguiente cuadro comparativo entre los motores de 4T y 2
 | **Mantenimiento**          | Menos frecuente, pero más complejo          | Más frecuente, pero más simple             |
 </div>
 
+</details>
 
-## 4. El sistema de distribución – Válvulas y árbol de levas
+<details>
+
+<summary>**4. El sistema de distribución – Válvulas y árbol de levas**</summary>
 
 El sistema de distribución permite que las **válvulas de admisión y escape se abran y cierren en el momento justo**, para que el ciclo funcione bien. Para esto:
 
@@ -149,8 +159,12 @@ Observa este [video](https://www.youtube.com/watch?v=3IGsxat0byE) para entender 
 
 :::
 
+</details>
 
-## 5. Lubricación – Cuidar las piezas internas
+
+<details>
+
+<summary>**5. Lubricación – Cuidar las piezas internas**</summary>
 
 ::: warning
 
@@ -213,8 +227,12 @@ Se denomina **multigrado** porque un mismo aceite tiene una clasificación de vi
 
 :::
 
+</details>
 
-## 6. Sistema de refrigeración – Evitar el sobrecalentamiento
+
+<details>
+
+<summary>**6. Sistema de refrigeración – Evitar el sobrecalentamiento**</summary>
 
 Observa este [video](https://www.youtube.com/watch?v=iDomoZkLoSs) para comprender mejor el sistema de enfriamiento de un motor.
 
@@ -254,8 +272,12 @@ Cuando el motor trabaja, genera calor por la explosión y la fricción. Para que
 
 :::
 
+</details>
 
-## 7. Arranque de un motor 4T
+
+<details>
+
+<summary>**7. Arranque de un motor 4T**</summary>
 
 :::figure
 ![](https://images.coches.com/_news_/2019/03/Motor-de-Arranque-6.jpg){width=600px}
@@ -282,7 +304,12 @@ Hacer un esquema del arranque de un motor 4T. Puede servirte de base la figura q
 
 :::
 
-## 8. Encendido de un motor 4T
+</details>
+
+
+<details>
+
+<summary>**8. Encendido de un motor 4T**</summary>
 
 ::: figure
 ![](../images/motor4t_encedido_gasolero_naftero.jpg){width=300px}
@@ -362,6 +389,88 @@ Básicamente este motor no requiere ninguna chispa por que la mezcla aire-combus
 El sistema common rail mantiene el combustible a una alta presión constante en el riel común permitiendo que los inyectores controlen la inyección de combustible con presición milimétrica, cuando el conductor presiona el acelerador la ECU envía señales a los inyectores para que se abran y pulvericen el combustible a alta presión directamente en la cámara de combustión.
 </div>
 
+</details>
+
+
+<details>
+
+<summary>**9. Tipos de mantenimiento**</summary>
+
+El mantenimiento permite que el motor funcione correctamente, dure más y evite fallas graves. Hay básicamente rtes tipos:
+
+### Mantenimiento preventivo
+
+::: figure
+![](../images/motor4t_mant_prevent.jpg){width=250px}
+
+<small>Se hace cada cierto tiempo o km (eribertodeolivera.com)</small>
+:::
+
+Son tareas que se hacen **antes de que algo falle**, para prolongar la vida útil del motor.
+
+::: example
+
+Ejemplos:
+
+* **Cambio de aceite**: cada cierta cantidad de horas o kilómetros.
+* **Limpieza o cambio del filtro de aire**.
+* **Limpieza o cambio de bujía**.
+* **Revisión de cables, tornillos, correas, mangueras**.
+* **Revisión del sistema de refrigeración (nivel de agua o estado del radiador)**.
+* **Ajuste de válvulas** (si aplica).
+* **Chequeo de consumo de combustible**.
+
+:::
+
+### Mantenimiento correctivo
+
+::: figure
+![](../images/motor4t_mant_correct.jpg){width=250px}
+
+<small>Se hace cuando algo ha fallado (rimsamex.com)</small>
+:::
+
+Se realiza **cuando algo ya está fallando**.
+
+::: example
+
+Ejemplos:
+
+* Reemplazo de lámparas.
+* Reparación del sistema de encendido, carburación o lubricación.
+* Ajustes importantes cuando el motor pierde potencia, se traba o no arranca.
+
+:::
+
+### Mantenimiento predictivo
+
+::: figure
+![](../images/motor4t_mant_predict.jpg){width=250px}
+
+<small>Implica observar, medir y predecir la falla (cegid.com)</small>
+:::
+
+Consiste en **anticipar fallas** observando o midiendo ciertos parámetros:
+
+::: example
+
+Ejemplo: Analizar muestras de aceite contándo partículas metálicas para medir el desgaste
+
+:::
+
+### Actividades
+
+::: activity
+
+**a)** Siempre es importante consultar el manual del vehículo o máquina en cuestión ya que da las pautas que son la base para hacer el mantenimiento. El manual más común es el **"manual del usuario"** que trae datos básicos. También está el **manual de taller o de servicio** que trae datos más especializados y es el que los mecánicos normalmente usan. Busca el manual de usuario de una maquina o vehículo con motor de 4T al que tengas acceso. Puede ser un grupo electrógeno, una moto, un auto, etc. Escribe un lista de al menos 5 mantenimientos preventivos que nombre el manual. Por ejemplo el manual puede decir en el caso de una moto: Lavar filtro de aire cada 3000 Km. A veces traen una tabla con un conjunto de cosas que hay que hacer cada cierto periodo.
+
+**b)** Investiga en que consiste el mantenimiento preventivo llamado "regulación o ajuste de válvulas". Busca algún video explicativo si quieres. Luego detalla **para que sirve** y **describe** brevemente el procedimiento.
+
+**c)** Explica con tus palabras por que no harías mantenimiento preventivo con las lámparas de luz de un vehículo.
+
+:::
+
+</details>
 
 <!-- *** GUIDE END *** -->
 
