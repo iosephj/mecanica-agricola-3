@@ -121,6 +121,43 @@ En base al video que vimos, *"Secretos que SOLO los conductores PRO de tractor c
 </details>
 
 
+
+<details>
+
+<summary> **4. Lubricación del tractor agrícola**</summary>
+
+## 4. Lubricación del tractor agrícola
+
+Un tractor tiene muchas piezas que se mueven y rozan por lo que es importante que esté bien lubricado. El lubricante además de reducir la fricción y el sobrecalentamiento también ayuda a proteger las piezas contra la corrosión. 
+
+**Para lubricar se usa:**
+
+- **Aceites lubricantes:** son líquidos y circulan por el interior de los mecanismos.
+- **Grasas lubricantes:** son más espesas y permanecen adheridas a las superficies, especialmente en mecanismos donde el aceite podría escurrirse.
+
+**¿Dónde se utilizan?**
+
+- **Motor:** Puede usarse SAE 15W-40, SAE 10W-30, etc. según las especificaciones del fabricante.
+- **Transmisión y diferencial:** Se utiliza aceite para engranajes, por ejemplo SAE 80W-90 pero siempre siguiendo lo que indique el fabricante.
+- **Sistema hidráulico:** Utiliza aceite hidráulico. Este aceite además de lubricar permite transmitir fuerza mediante la presión del líquido y se utiliza para levantar implementos y accionar cilindros hidráulicos.
+- **Puntos de engrase:** Se utiliza generalmente grasa multipropósito de litio. Se aplica en articulaciones, crucetas, rodamientos y puntos de movimiento indicados por el fabricante. Se introduce mediante una herramienta llamada engrasadora.
+
+### Actividades
+
+::: activity
+
+**a)** Averiguar y escribir ejemplos de aceites usados en el sistema hidráulico.
+
+**b)** ¿Cuál es el menos viscoso de los aceites que usa una tractor según lo que leíste en esta guá y buscaste en el punto anterior?
+
+**c)** Busca algún video breve sobre los puntos de engrase en el tractor y escribe una lista de esos puntos según aparece en el video. Anota el nombre del video.
+
+**d)** Escribe completa esta frase que resume puntos importantes a tener en cuenta: *La _____ no es solamente agregar aceite. También implica _____ los niveles, revisar posibles pérdidas y cambiar los _____ siguiendo los intervalos de mantenimiento recomendados.* Usa las palabras que mejor te parezca que encajan.
+
+:::
+
+</details>
+
 <!-- *** GUIDE END *** -->
 
 

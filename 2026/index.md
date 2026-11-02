@@ -16,17 +16,17 @@ version: "01/03/26"
 
 **Criterios de aprobación**
 
+Tener todas las tareas de alternancia y pruebas aprobadas.
+
+En detalle:
+
 - **Cuatrimestre 1:** Tener **A** en Bimestre 1 y 2
    + **Bimestre 1:** Tener **A** en Alt. 1, Alt. 2 y Prueba 1
    + **Bimestre 2:** Tener **A** en Alt. 3 y Alt. 4.
 
-<div hidden>
-
-
 - **Cuatrimestre 2:** Tener **A** en Bimestre 3 y 4
-   + **Bimestre 3:** Tener **A** en Guía 9 (Alt. 5) y Guía 10 (Alt 6)
-   + **Bimestre 4:** Tener **A** en Guía 12 y Prueba 3
-</div>
+   + **Bimestre 3:** Tener **A** en Alt. 5, Alt 6. y Prueba 2
+   + **Bimestre 4:** Tener **A** en Alt. 7, Alt. 8 y Prueba 3
 
 </div>
 
